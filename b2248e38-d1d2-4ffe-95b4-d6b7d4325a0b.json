@@ -1,0 +1,29 @@
+{
+  "edges": [],
+  "nodes": [
+    {
+      "id": "c6961171-0051-4fc2-8a3b-a5e6cbd9c5c5",
+      "data": {
+        "name": "python_node_0",
+        "description": "Describe the task of node c6961171",
+        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+      },
+      "type": "python_node",
+      "width": 350,
+      "height": 210,
+      "dragging": false,
+      "position": {
+        "x": 550,
+        "y": -370
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": 550,
+        "y": -370
+      }
+    }
+  ]
+}

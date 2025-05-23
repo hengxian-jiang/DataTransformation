@@ -5,7 +5,10 @@
       "data": {
         "name": "python_node_0",
         "description": "Describe the task of node cbe39ea4",
-        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\"",
+        "result": "{\n  \"result\": \"\\\"This is exec function\\\"\",\n  \"error\": false,\n  \"errorMessage\": null,\n  \"nodeName\": \"python_node_0\"\n}",
+        "error": false,
+        "errorMessage": null
       },
       "type": "python_node",
       "width": 350,
@@ -26,27 +29,27 @@
     },
     {
       "id": "fceb24db-847e-42ba-aa78-5151e8c101f2",
-      "type": "python_node",
       "data": {
         "name": "python_node_1",
         "description": "Describe the task of node fceb24db",
-        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+        "python_code": "def exec(myinput):\n  return error\ndef test_exec(myinput):\n  return error"
       },
-      "position": {
-        "x": 460,
-        "y": -370
-      },
+      "type": "python_node",
       "width": 354,
       "height": 214,
-      "selected": false,
+      "dragging": false,
+      "position": {
+        "x": 380,
+        "y": -390
+      },
+      "selected": true,
+      "dragHandle": "",
       "sourcePosition": "right",
       "targetPosition": "left",
-      "dragHandle": "",
       "positionAbsolute": {
-        "x": 460,
-        "y": -370
-      },
-      "dragging": false
+        "x": 380,
+        "y": -390
+      }
     }
   ],
   "edges": [

@@ -47,6 +47,25 @@
         "x": 540,
         "y": -210
       }
+    },
+    {
+      "id": "4f94902f-9603-4726-ba5e-445f121b7815",
+      "type": "python_node",
+      "data": {
+        "name": "python_node_2",
+        "description": "Describe the task of node 4f94902f",
+        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+      },
+      "position": {
+        "x": 1040,
+        "y": -10
+      },
+      "width": 354,
+      "height": 214,
+      "selected": false,
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "dragHandle": ""
     }
   ],
   "edges": [
@@ -54,6 +73,11 @@
       "id": "457425d6-3f4d-4798-997f-2a657d9f119d",
       "source": "2166ed75-b1cf-485c-8755-d4944ea42cca",
       "target": "462fa4c3-8fe5-4933-b668-db97bab83db2"
+    },
+    {
+      "id": "1306cfaf-99bb-4358-ba5a-b0adb08b202f",
+      "source": "462fa4c3-8fe5-4933-b668-db97bab83db2",
+      "target": "4f94902f-9603-4726-ba5e-445f121b7815"
     }
   ]
 }

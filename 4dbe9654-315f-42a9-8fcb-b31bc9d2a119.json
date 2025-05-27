@@ -1,4 +1,29 @@
 {
-  "nodes": [],
+  "nodes": [
+    {
+      "id": "2166ed75-b1cf-485c-8755-d4944ea42cca",
+      "type": "python_node",
+      "data": {
+        "name": "python_node_0",
+        "description": "Describe the task of node 2166ed75",
+        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+      },
+      "position": {
+        "x": 20,
+        "y": -40
+      },
+      "width": 354,
+      "height": 214,
+      "selected": true,
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "dragHandle": "",
+      "positionAbsolute": {
+        "x": 20,
+        "y": -40
+      },
+      "dragging": false
+    }
+  ],
   "edges": []
 }

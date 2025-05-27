@@ -2,28 +2,58 @@
   "nodes": [
     {
       "id": "2166ed75-b1cf-485c-8755-d4944ea42cca",
-      "type": "python_node",
       "data": {
         "name": "python_node_0",
         "description": "Describe the task of node 2166ed75",
         "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
       },
+      "type": "python_node",
+      "width": 350,
+      "height": 210,
+      "dragging": false,
       "position": {
         "x": 20,
         "y": -40
       },
-      "width": 354,
-      "height": 214,
-      "selected": true,
+      "selected": false,
+      "dragHandle": "",
       "sourcePosition": "right",
       "targetPosition": "left",
-      "dragHandle": "",
       "positionAbsolute": {
         "x": 20,
         "y": -40
+      }
+    },
+    {
+      "id": "462fa4c3-8fe5-4933-b668-db97bab83db2",
+      "data": {
+        "name": "python_node_1",
+        "description": "Describe the task of node 462fa4c3",
+        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
       },
-      "dragging": false
+      "type": "python_node",
+      "width": 350,
+      "height": 210,
+      "dragging": false,
+      "position": {
+        "x": 540,
+        "y": -210
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": 540,
+        "y": -210
+      }
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "id": "457425d6-3f4d-4798-997f-2a657d9f119d",
+      "source": "2166ed75-b1cf-485c-8755-d4944ea42cca",
+      "target": "462fa4c3-8fe5-4933-b668-db97bab83db2"
+    }
+  ]
 }

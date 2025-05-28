@@ -15,13 +15,18 @@
       "width": 350,
       "height": 210,
       "position": {
-        "x": 100,
+        "x": -110,
         "y": 100
       },
-      "selected": false,
+      "selected": true,
       "dragHandle": "",
       "sourcePosition": "right",
-      "targetPosition": "left"
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": -110,
+        "y": 100
+      },
+      "dragging": false
     }
   ],
   "edges": []

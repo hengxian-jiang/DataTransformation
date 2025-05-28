@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "id": "ec47834b-fc2b-4b8b-9c21-f1b0a505ae5a",
+      "data": {
+        "name": "csv_node_0",
+        "description": "Describe the task of node csv_node_0",
+        "file": "execute-nodes-flowrun.csv",
+        "delimiter": ",",
+        "hasheader": true,
+        "columns": [],
+        "encoding": "utf-8"
+      },
+      "type": "csv_node",
+      "width": 350,
+      "height": 210,
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left"
+    }
+  ],
+  "edges": []
+}

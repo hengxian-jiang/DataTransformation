@@ -1,7 +1,8 @@
 {
   "nodes": [
     {
-      "id": "ec47834b-fc2b-4b8b-9c21-f1b0a505ae5a",
+      "id": "afd613db-b574-4a5f-9c6c-2d731cc05a98",
+      "type": "csv_node",
       "data": {
         "name": "csv_node_0",
         "description": "Describe the task of node csv_node_0",
@@ -11,22 +12,16 @@
         "columns": [],
         "encoding": "utf-8"
       },
-      "type": "csv_node",
-      "width": 350,
-      "height": 210,
       "position": {
-        "x": -110,
+        "x": 100,
         "y": 100
       },
-      "selected": true,
-      "dragHandle": "",
+      "width": 354,
+      "height": 214,
+      "selected": false,
       "sourcePosition": "right",
       "targetPosition": "left",
-      "positionAbsolute": {
-        "x": -110,
-        "y": 100
-      },
-      "dragging": false
+      "dragHandle": ""
     }
   ],
   "edges": []

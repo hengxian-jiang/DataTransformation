@@ -1,12 +1,12 @@
 {
   "nodes": [
     {
-      "id": "afd613db-b574-4a5f-9c6c-2d731cc05a98",
+      "id": "b1998b78-f860-4aa9-802b-049316b106f2",
       "type": "csv_node",
       "data": {
         "name": "csv_node_0",
         "description": "Describe the task of node csv_node_0",
-        "file": "execute-nodes-flowrun.csv",
+        "file": "",
         "delimiter": ",",
         "hasheader": true,
         "columns": [],
@@ -18,10 +18,15 @@
       },
       "width": 354,
       "height": 214,
-      "selected": false,
+      "selected": true,
       "sourcePosition": "right",
       "targetPosition": "left",
-      "dragHandle": ""
+      "dragHandle": "",
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -60,
+        "y": 70
+      }
     }
   ],
   "edges": []

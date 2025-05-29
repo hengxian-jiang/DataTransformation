@@ -16,7 +16,7 @@
       "height": 214,
       "dragging": false,
       "position": {
-        "x": 0,
+        "x": -180,
         "y": -270
       },
       "selected": false,
@@ -24,9 +24,37 @@
       "sourcePosition": "right",
       "targetPosition": "left",
       "positionAbsolute": {
-        "x": 0,
+        "x": -180,
         "y": -270
       }
+    },
+    {
+      "id": "3d4e932d-ef7e-4a08-a30d-a6a5fcd24cfb",
+      "type": "csv_node",
+      "data": {
+        "name": "csv_node_1",
+        "description": "Describe the task of node csv_node_1",
+        "file": "",
+        "delimiter": ",",
+        "hasheader": true,
+        "columns": [],
+        "encoding": "utf-8"
+      },
+      "position": {
+        "x": 240,
+        "y": -260
+      },
+      "width": 354,
+      "height": 214,
+      "selected": true,
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "dragHandle": "",
+      "positionAbsolute": {
+        "x": 240,
+        "y": -260
+      },
+      "dragging": false
     }
   ],
   "edges": []

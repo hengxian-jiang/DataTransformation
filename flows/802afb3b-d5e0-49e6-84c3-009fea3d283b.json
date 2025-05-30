@@ -8,7 +8,7 @@
         "columns": [],
         "encoding": "utf-8",
         "delimiter": ",",
-        "hasheader": true,
+        "hasheader": false,
         "description": "Describe the task of node csv_node_0, test edit from remote"
       },
       "type": "csv_node",

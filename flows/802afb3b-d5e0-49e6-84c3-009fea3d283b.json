@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "id": "ef44090f-ed10-46bb-be6d-ff54e85a168d",
+      "data": {
+        "file": "",
+        "name": "csv_node_0",
+        "columns": [],
+        "encoding": "utf-8",
+        "delimiter": ",",
+        "hasheader": true,
+        "description": "Describe the task of node csv_node_0"
+      },
+      "type": "csv_node",
+      "width": 350,
+      "height": 210,
+      "dragging": false,
+      "position": {
+        "x": -180,
+        "y": -270
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": -180,
+        "y": -270
+      }
+    },
+    {
+      "id": "3d4e932d-ef7e-4a08-a30d-a6a5fcd24cfb",
+      "data": {
+        "file": "",
+        "name": "csv_node_1",
+        "columns": [],
+        "encoding": "utf-8",
+        "delimiter": ",",
+        "hasheader": true,
+        "description": "Describe the task of node csv_node_1"
+      },
+      "type": "csv_node",
+      "width": 350,
+      "height": 210,
+      "dragging": false,
+      "position": {
+        "x": -180,
+        "y": -520
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": -180,
+        "y": -520
+      }
+    },
+    {
+      "id": "88fbdfed-9be3-4c3a-9e67-294dc3fd6629",
+      "data": {
+        "name": "python_node_0",
+        "description": "Describe the task of node python_node_0",
+        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+      },
+      "type": "python_node",
+      "width": 350,
+      "height": 210,
+      "dragging": false,
+      "position": {
+        "x": 230,
+        "y": -390
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": 230,
+        "y": -390
+      }
+    },
+    {
+      "id": "82d007ad-f7f8-4641-86ee-b7b8a3052a9b",
+      "data": {
+        "name": "sql_node_0",
+        "description": "Describe the task of node sql_node_0"
+      },
+      "type": "sql_node",
+      "width": 354,
+      "height": 214,
+      "dragging": false,
+      "position": {
+        "x": 650,
+        "y": -390
+      },
+      "selected": true,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": 650,
+        "y": -390
+      }
+    }
+  ],
+  "edges": []
+}

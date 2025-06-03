@@ -31,17 +31,17 @@
     {
       "id": "3d4e932d-ef7e-4a08-a30d-a6a5fcd24cfb",
       "data": {
-        "file": "",
         "name": "csv_node_1",
-        "columns": [],
-        "encoding": "utf-8",
+        "description": "Describe the task of node csv_node_1",
+        "file": "execute-nodes-flowrun.csv",
         "delimiter": ",",
         "hasheader": true,
-        "description": "Describe the task of node csv_node_1"
+        "columns": [],
+        "encoding": "utf-8"
       },
       "type": "csv_node",
-      "width": 350,
-      "height": 210,
+      "width": 354,
+      "height": 214,
       "dragging": false,
       "position": {
         "x": -180,
@@ -87,8 +87,8 @@
         "description": "Describe the task of node sql_node_0"
       },
       "type": "sql_node",
-      "width": 354,
-      "height": 214,
+      "width": 350,
+      "height": 210,
       "dragging": false,
       "position": {
         "x": 650,

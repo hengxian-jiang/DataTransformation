@@ -3,13 +3,13 @@
     {
       "id": "ef44090f-ed10-46bb-be6d-ff54e85a168d",
       "data": {
-        "file": "",
         "name": "csv_node_0",
-        "columns": [],
-        "encoding": "utf-8",
+        "description": "Describe the task of node csv_node_0, test edit from remote",
+        "file": "execute-nodes-flowrun.csv",
         "delimiter": ",",
         "hasheader": false,
-        "description": "Describe the task of node csv_node_0, test edit from remote"
+        "columns": [],
+        "encoding": "utf-8"
       },
       "type": "csv_node",
       "width": 350,
@@ -31,13 +31,13 @@
     {
       "id": "3d4e932d-ef7e-4a08-a30d-a6a5fcd24cfb",
       "data": {
-        "name": "csv_node_1",
-        "description": "Describe the task of node csv_node_1",
         "file": "execute-nodes-flowrun.csv",
+        "name": "csv_node_1",
+        "columns": [],
+        "encoding": "utf-8",
         "delimiter": ",",
         "hasheader": true,
-        "columns": [],
-        "encoding": "utf-8"
+        "description": "Describe the task of node csv_node_1"
       },
       "type": "csv_node",
       "width": 354,
@@ -47,7 +47,7 @@
         "x": -180,
         "y": -520
       },
-      "selected": true,
+      "selected": false,
       "dragHandle": "",
       "sourcePosition": "right",
       "targetPosition": "left",

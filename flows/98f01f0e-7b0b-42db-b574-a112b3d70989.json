@@ -1,0 +1,40 @@
+{
+  "name": "CcTestDE",
+  "description": "test description",
+  "edges": {
+    "e1": {
+      "source": "python_node_1",
+      "target": "py2table_node_0"
+    },
+    "e2": {
+      "source": "py2table_node_0",
+      "target": "python_node_2"
+    }
+  },
+  "nodes": {
+    "python_node_1": {
+      "id": "8c67bf01-a440-4f5e-8a10-f20a085b2106",
+      "type": "python_node",
+      "python_code": "def exec(myinput):\n  return {\n    \"result\": {\n        \"persons\": [\n            {\n                \"person_id\": 10,\n                \"gender_concept_id\": \"8507\",\n                \"race_concept_id\": \"8527\",\n                \"ethnicity_concept_id\": \"38003564\",\n                \"year_of_birth\": \"1923\",\n                \"month_of_birth\": \"05\",\n                \"day_of_birth\": \"01\",\n                \"location_id\": 0,\n                \"provider_id\": 0,\n                \"care_site_id\": 0,\n                \"person_source_value\": \"\",\n                \"gender_source_value\": 1,\n                \"gender_source_concept_id\": 0,\n                \"race_source_value\": 1,\n                \"race_source_concept_id\": 0,\n                \"ethnicity_source_value\": 1,\n                \"ethnicity_source_concept_id\": 0\n            },\n            {\n                \"person_id\": 11,\n                \"gender_concept_id\": \"8507\",\n                \"race_concept_id\": \"8527\",\n                \"ethnicity_concept_id\": \"38003564\",\n                \"year_of_birth\": \"1943\",\n                \"month_of_birth\": \"01\",\n                \"day_of_birth\": \"01\",\n                \"location_id\": 0,\n                \"provider_id\": 0,\n                \"care_site_id\": 0,\n                \"person_source_value\": \"\",\n                \"gender_source_value\": 1,\n                \"gender_source_concept_id\": 0,\n                \"race_source_value\": 1,\n                \"race_source_concept_id\": 0,\n                \"ethnicity_source_value\": 1,\n                \"ethnicity_source_concept_id\": 0\n            }\n       ]\n    },\n}\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+    },
+    "python_node_2": {
+      "id": "df5dc823-2962-40c1-99a9-698a4f6e6ab5",
+      "type": "python_node",
+      "python_code": "def exec(myinput):\n  return myinput['py2table_node_0']\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+    },
+    "py2table_node_0": {
+      "id": "e7a4a683-4bb6-451f-84bb-d6f1fd50069b",
+      "map": {},
+      "type": "py2table_node",
+      "uiMap": {
+        "path": "$.result",
+        "source": "python_node_1"
+      }
+    },
+    "test_python_node1a": {
+      "id": "ec2d5588-ef54-47e4-ab87-51acf94fd778",
+      "type": "python_node",
+      "python_code": "def exec(myinput):\n  return \"success\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+    }
+  }
+}

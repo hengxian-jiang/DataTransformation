@@ -8,8 +8,8 @@
         "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
       },
       "type": "python_node",
-      "width": 354,
-      "height": 214,
+      "width": 350,
+      "height": 210,
       "dragging": false,
       "position": {
         "x": 70,
@@ -31,8 +31,8 @@
         "description": "Describe the task of node py2table_node_0"
       },
       "type": "py2table_node",
-      "width": 354,
-      "height": 214,
+      "width": 350,
+      "height": 210,
       "dragging": false,
       "position": {
         "x": 570,
@@ -54,8 +54,8 @@
         "description": "Describe the task of node db_reader_node_0"
       },
       "type": "db_reader_node",
-      "width": 354,
-      "height": 214,
+      "width": 350,
+      "height": 210,
       "dragging": false,
       "position": {
         "x": -360,
@@ -77,8 +77,8 @@
         "description": "Describe the task of node sql_node_0"
       },
       "type": "sql_node",
-      "width": 354,
-      "height": 214,
+      "width": 350,
+      "height": 210,
       "dragging": false,
       "position": {
         "x": 1030,
@@ -95,77 +95,77 @@
     },
     {
       "id": "9d031de7-99f5-46f8-876b-21328266149b",
-      "type": "python_notebook_node",
       "data": {
         "name": "python_notebook_node_0",
         "description": "Describe the task of node python_notebook_node_0"
       },
+      "type": "python_notebook_node",
+      "width": 350,
+      "height": 210,
+      "dragging": false,
       "position": {
         "x": 70,
         "y": 110
       },
-      "width": 354,
-      "height": 214,
       "selected": false,
+      "dragHandle": "",
       "sourcePosition": "right",
       "targetPosition": "left",
-      "dragHandle": "",
       "positionAbsolute": {
         "x": 70,
         "y": 110
-      },
-      "dragging": false
+      }
     },
     {
       "id": "76e203c7-980b-45a9-9f7e-6993e110452c",
-      "type": "sql_node",
       "data": {
         "name": "sql_node_1",
         "description": "Describe the task of node sql_node_1"
       },
+      "type": "sql_node",
+      "width": 350,
+      "height": 210,
+      "dragging": false,
       "position": {
         "x": 560,
         "y": 110
       },
-      "width": 354,
-      "height": 214,
       "selected": false,
+      "dragHandle": "",
       "sourcePosition": "right",
       "targetPosition": "left",
-      "dragHandle": "",
       "positionAbsolute": {
         "x": 560,
         "y": 110
-      },
-      "dragging": false
+      }
     },
     {
       "id": "a338dbf9-7ef5-486d-b791-3b14313e4bab",
-      "type": "csv_node",
       "data": {
-        "name": "csv_node_0",
-        "description": "Describe the task of node csv_node_0",
         "file": "",
+        "name": "csv_node_0",
+        "columns": [],
+        "encoding": "utf-8",
         "delimiter": ",",
         "hasheader": true,
-        "columns": [],
-        "encoding": "utf-8"
+        "description": "Describe the task of node csv_node_0"
       },
+      "type": "csv_node",
+      "width": 350,
+      "height": 210,
+      "dragging": false,
       "position": {
         "x": -370,
         "y": 110
       },
-      "width": 354,
-      "height": 214,
       "selected": false,
+      "dragHandle": "",
       "sourcePosition": "right",
       "targetPosition": "left",
-      "dragHandle": "",
       "positionAbsolute": {
         "x": -370,
         "y": 110
-      },
-      "dragging": false
+      }
     }
   ],
   "edges": [
@@ -199,11 +199,11 @@
       "target": "a338dbf9-7ef5-486d-b791-3b14313e4bab"
     },
     {
+      "id": "reactflow__edge-a338dbf9-7ef5-486d-b791-3b14313e4babsource_a338dbf9-7ef5-486d-b791-3b14313e4bab_any-f6662209-162a-4f0a-87df-60b65313b396target_f6662209-162a-4f0a-87df-60b65313b396_any",
       "source": "a338dbf9-7ef5-486d-b791-3b14313e4bab",
-      "sourceHandle": "source_a338dbf9-7ef5-486d-b791-3b14313e4bab_any",
       "target": "f6662209-162a-4f0a-87df-60b65313b396",
-      "targetHandle": "target_f6662209-162a-4f0a-87df-60b65313b396_any",
-      "id": "reactflow__edge-a338dbf9-7ef5-486d-b791-3b14313e4babsource_a338dbf9-7ef5-486d-b791-3b14313e4bab_any-f6662209-162a-4f0a-87df-60b65313b396target_f6662209-162a-4f0a-87df-60b65313b396_any"
+      "sourceHandle": "source_a338dbf9-7ef5-486d-b791-3b14313e4bab_any",
+      "targetHandle": "target_f6662209-162a-4f0a-87df-60b65313b396_any"
     }
   ]
 }

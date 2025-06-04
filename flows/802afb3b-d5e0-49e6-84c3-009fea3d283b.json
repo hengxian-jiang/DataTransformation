@@ -3,7 +3,7 @@
     {
       "id": "ef44090f-ed10-46bb-be6d-ff54e85a168d",
       "data": {
-        "file": "",
+        "file": "execute-nodes-flowrun.csv",
         "name": "csv_node_0",
         "columns": [],
         "encoding": "utf-8",
@@ -31,7 +31,7 @@
     {
       "id": "3d4e932d-ef7e-4a08-a30d-a6a5fcd24cfb",
       "data": {
-        "file": "",
+        "file": "execute-nodes-flowrun.csv",
         "name": "csv_node_1",
         "columns": [],
         "encoding": "utf-8",
@@ -87,14 +87,14 @@
         "description": "Describe the task of node sql_node_0"
       },
       "type": "sql_node",
-      "width": 354,
-      "height": 214,
+      "width": 350,
+      "height": 210,
       "dragging": false,
       "position": {
         "x": 650,
         "y": -390
       },
-      "selected": true,
+      "selected": false,
       "dragHandle": "",
       "sourcePosition": "right",
       "targetPosition": "left",

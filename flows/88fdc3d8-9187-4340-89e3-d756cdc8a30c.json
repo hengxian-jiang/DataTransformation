@@ -1,0 +1,118 @@
+{
+  "name": "Template 1",
+  "description": "Template 1",
+  "edges": [
+    {
+      "id": "5eb5087f-7865-4f17-b2f2-e42c67515d31",
+      "source": "f6662209-162a-4f0a-87df-60b65313b396",
+      "target": "9dd15b1d-7e9b-4c64-b1ec-9b69d6ac5629"
+    },
+    {
+      "id": "reactflow__edge-669eff6b-ff52-4633-bcdd-cc15a20f41ffsource_669eff6b-ff52-4633-bcdd-cc15a20f41ff_dataframe-f6662209-162a-4f0a-87df-60b65313b396target_f6662209-162a-4f0a-87df-60b65313b396_any",
+      "source": "669eff6b-ff52-4633-bcdd-cc15a20f41ff",
+      "target": "f6662209-162a-4f0a-87df-60b65313b396",
+      "sourceHandle": "source_669eff6b-ff52-4633-bcdd-cc15a20f41ff_dataframe",
+      "targetHandle": "target_f6662209-162a-4f0a-87df-60b65313b396_any"
+    },
+    {
+      "id": "b27c6d6d-c997-4040-b869-4b6505587556",
+      "source": "9dd15b1d-7e9b-4c64-b1ec-9b69d6ac5629",
+      "target": "f27ac691-6d15-4323-82a7-86e3f15494e1"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "f6662209-162a-4f0a-87df-60b65313b396",
+      "data": {
+        "name": "python_node_0",
+        "description": "Describe the task of node python_node_0",
+        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+      },
+      "type": "python_node",
+      "width": 354,
+      "height": 214,
+      "dragging": false,
+      "position": {
+        "x": 70,
+        "y": -170
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": 70,
+        "y": -170
+      }
+    },
+    {
+      "id": "9dd15b1d-7e9b-4c64-b1ec-9b69d6ac5629",
+      "data": {
+        "name": "py2table_node_0",
+        "description": "Describe the task of node py2table_node_0"
+      },
+      "type": "py2table_node",
+      "width": 354,
+      "height": 214,
+      "dragging": false,
+      "position": {
+        "x": -360,
+        "y": 70
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": -360,
+        "y": 70
+      }
+    },
+    {
+      "id": "669eff6b-ff52-4633-bcdd-cc15a20f41ff",
+      "data": {
+        "name": "db_reader_node_0",
+        "description": "Describe the task of node db_reader_node_0"
+      },
+      "type": "db_reader_node",
+      "width": 354,
+      "height": 214,
+      "dragging": false,
+      "position": {
+        "x": -360,
+        "y": -170
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": -360,
+        "y": -170
+      }
+    },
+    {
+      "id": "f27ac691-6d15-4323-82a7-86e3f15494e1",
+      "data": {
+        "name": "sql_node_0",
+        "description": "Describe the task of node sql_node_0"
+      },
+      "type": "sql_node",
+      "width": 354,
+      "height": 214,
+      "dragging": false,
+      "position": {
+        "x": 70,
+        "y": 70
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": 70,
+        "y": 70
+      }
+    }
+  ]
+}

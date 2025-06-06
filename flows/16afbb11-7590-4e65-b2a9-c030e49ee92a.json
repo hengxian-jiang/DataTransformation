@@ -1,4 +1,54 @@
 {
-  "nodes": [],
-  "edges": []
+  "nodes": [
+    {
+      "id": "ef6c483f-8b07-4f8a-9ab6-61cfeaaa62c1",
+      "type": "python_node",
+      "data": {
+        "name": "python_node_0",
+        "description": "Describe the task of node python_node_0",
+        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+      },
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "width": 354,
+      "height": 214,
+      "selected": false,
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "dragHandle": "",
+      "dragging": false,
+      "positionAbsolute": {
+        "x": -80,
+        "y": 10
+      }
+    },
+    {
+      "id": "a8516692-4750-4956-83d3-8420061a7f72",
+      "type": "python_node",
+      "data": {
+        "name": "python_node_1",
+        "description": "Describe the task of node python_node_1",
+        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+      },
+      "position": {
+        "x": 590,
+        "y": -50
+      },
+      "width": 354,
+      "height": 214,
+      "selected": false,
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "dragHandle": ""
+    }
+  ],
+  "edges": [
+    {
+      "id": "38db3836-be72-4734-95d3-12d7c8ddd10e",
+      "source": "ef6c483f-8b07-4f8a-9ab6-61cfeaaa62c1",
+      "target": "a8516692-4750-4956-83d3-8420061a7f72"
+    }
+  ]
 }

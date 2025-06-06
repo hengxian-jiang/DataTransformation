@@ -8,8 +8,8 @@
         "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
       },
       "type": "python_node",
-      "width": 354,
-      "height": 214,
+      "width": 350,
+      "height": 210,
       "dragging": false,
       "position": {
         "x": 100,
@@ -32,8 +32,8 @@
         "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
       },
       "type": "python_node",
-      "width": 354,
-      "height": 214,
+      "width": 350,
+      "height": 210,
       "position": {
         "x": 590,
         "y": -50
@@ -45,27 +45,46 @@
     },
     {
       "id": "a4d44366-5b87-4c4b-ba78-e651787b4938",
-      "type": "python_node",
       "data": {
         "name": "python_node_2",
         "description": "Describe the task of node python_node_2",
         "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
       },
+      "type": "python_node",
+      "width": 350,
+      "height": 210,
+      "dragging": false,
       "position": {
         "x": 590,
         "y": 240
+      },
+      "selected": false,
+      "dragHandle": "",
+      "sourcePosition": "right",
+      "targetPosition": "left",
+      "positionAbsolute": {
+        "x": 590,
+        "y": 240
+      }
+    },
+    {
+      "id": "a58ddd88-6dad-42e5-a11d-6c9341c5e644",
+      "type": "python_node",
+      "data": {
+        "name": "python_node_3",
+        "description": "Describe the task of node python_node_3",
+        "python_code": "def exec(myinput):\n  return \"This is exec function\"\ndef test_exec(myinput):\n  return \"This is test_exec function\""
+      },
+      "position": {
+        "x": 1110,
+        "y": -20
       },
       "width": 354,
       "height": 214,
       "selected": false,
       "sourcePosition": "right",
       "targetPosition": "left",
-      "dragHandle": "",
-      "positionAbsolute": {
-        "x": 590,
-        "y": 240
-      },
-      "dragging": false
+      "dragHandle": ""
     }
   ],
   "edges": [
@@ -78,6 +97,11 @@
       "id": "c9927c40-b5d2-4ee1-b110-f14ebf013da1",
       "source": "ef6c483f-8b07-4f8a-9ab6-61cfeaaa62c1",
       "target": "a4d44366-5b87-4c4b-ba78-e651787b4938"
+    },
+    {
+      "id": "0ec19223-c1c8-4d98-b138-7188a0fd73ac",
+      "source": "a8516692-4750-4956-83d3-8420061a7f72",
+      "target": "a58ddd88-6dad-42e5-a11d-6c9341c5e644"
     }
   ]
 }
